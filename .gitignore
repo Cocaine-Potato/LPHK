@@ -113,6 +113,7 @@ USERPATH
 INSTALL/src/launchpad-py/
 
 
-*.lpl
-*.mp3
-*.wav
+./user_layouts/dc_soundboard
+./user_layouts/*.lpl
+
+./user_sounds/soundboard
