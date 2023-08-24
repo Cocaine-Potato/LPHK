@@ -1,0 +1,671 @@
+{
+  "buttons": [
+    [
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "TAP vol_up"
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      }
+    ],
+    [
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "TAP vol_down"
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      }
+    ],
+    [
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "TAP prev_track"
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      }
+    ],
+    [
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "TAP next_track"
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      }
+    ],
+    [
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@LOAD_LAYOUT C:\\Users\\vetlu\\Documents\\LPHK\\user_layouts\\6.lpl"
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      }
+    ],
+    [
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@LOAD_LAYOUT C:\\Users\\vetlu\\Documents\\LPHK\\user_layouts\\dc_soundboard\\6_2.lpl"
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      }
+    ],
+    [
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@LOAD_LAYOUT C:\\Users\\vetlu\\Documents\\LPHK\\user_layouts\\dc_soundboard\\6_3.lpl"
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      }
+    ],
+    [
+      {
+        "color": [
+          255,
+          255,
+          0
+        ],
+        "text": "-"
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          255,
+          0,
+          0
+        ],
+        "text": "@ASYNC\nSOUND_STOP 1500"
+      }
+    ],
+    [
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@LOAD_LAYOUT C:\\Users\\vetlu\\Documents\\LPHK\\user_layouts\\1.lpl"
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@LOAD_LAYOUT C:\\Users\\vetlu\\Documents\\LPHK\\user_layouts\\2.lpl"
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@LOAD_LAYOUT C:\\Users\\vetlu\\Documents\\LPHK\\user_layouts\\3.lpl"
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@LOAD_LAYOUT C:\\Users\\vetlu\\Documents\\LPHK\\user_layouts\\4.lpl"
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@LOAD_LAYOUT C:\\Users\\vetlu\\Documents\\LPHK\\user_layouts\\5.lpl"
+      },
+      {
+        "color": [
+          255,
+          255,
+          0
+        ],
+        "text": "-"
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@LOAD_LAYOUT C:\\Users\\vetlu\\Documents\\LPHK\\user_layouts\\7.lpl"
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "TAP play_pause"
+      }
+    ]
+  ],
+  "version": "0.1.1"
+}

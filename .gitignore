@@ -111,3 +111,8 @@ __setup__/*
 __release__/*
 USERPATH
 INSTALL/src/launchpad-py/
+
+
+*.lpl
+*.mp3
+*.wav
