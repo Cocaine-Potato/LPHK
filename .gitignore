@@ -112,8 +112,7 @@ __release__/*
 USERPATH
 INSTALL/src/launchpad-py/
 
+user_sounds/soundboard
 
-./user_layouts/dc_soundboard
-./user_layouts/*.lpl
-
-./user_sounds/soundboard
+user_layouts/dc_soundboard
+user_layouts/*.lpl
