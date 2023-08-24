@@ -229,6 +229,8 @@ Commands follow the format: `COMMAND arg1 arg2 ...`. Scripts are just a text fil
   * Open website (argument 1) in default browser.
 * `WEB_NEW`
   * Open website (argument 1) in default browser, try new window.
+* `WEB_NOHTTPS`
+  * Open website (argument 1) in default browser, without automatically adding `https://` to the specified argument
   
 #### Keypresses [[Table of Contents]](https://github.com/nimaid/LPHK#table-of-contents)
 * `PRESS`

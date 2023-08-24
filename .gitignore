@@ -110,3 +110,4 @@ user_layouts/*.*
 __setup__/*
 __release__/*
 USERPATH
+INSTALL/src/launchpad-py/
