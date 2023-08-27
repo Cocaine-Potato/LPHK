@@ -10,7 +10,48 @@ DELAY_EXIT_CHECK = 0.025
 
 import files
 
-VALID_COMMANDS = ["@ASYNC", "@SIMPLE", "@LOAD_LAYOUT", "STRING", "DELAY", "TAP", "PRESS", "RELEASE", "WEB", "WEB_NEW", "WEB_NOHTTPS", "CODE", "SOUND", "SOUND_STOP", "WAIT_UNPRESSED", "M_MOVE", "M_SET", "M_SCROLL", "M_LINE", "M_LINE_MOVE", "M_LINE_SET", "LABEL", "IF_PRESSED_GOTO_LABEL", "IF_UNPRESSED_GOTO_LABEL", "GOTO_LABEL", "REPEAT_LABEL", "IF_PRESSED_REPEAT_LABEL", "IF_UNPRESSED_REPEAT_LABEL", "M_STORE", "M_RECALL", "M_RECALL_LINE", "OPEN", "RELEASE_ALL", "RESET_REPEATS"]
+VALID_COMMANDS = [
+    "@ASYNC", 
+    "@SIMPLE", 
+    "@LOAD_LAYOUT", 
+    "STRING", 
+    "DELAY", 
+    "TAP", 
+    "PRESS", 
+    "RELEASE", 
+    "WEB", 
+    "WEB_NEW", 
+    "CODE", 
+    "SOUND", 
+    "SOUND_STOP", 
+    "WAIT_UNPRESSED", 
+    "M_MOVE", 
+    "M_SET", 
+    "M_SCROLL", 
+    "M_LINE", 
+    "M_LINE_MOVE", 
+    "M_LINE_SET", 
+    "LABEL", 
+    "IF_PRESSED_GOTO_LABEL", 
+    "IF_UNPRESSED_GOTO_LABEL", 
+    "GOTO_LABEL", 
+    "REPEAT_LABEL", 
+    "IF_PRESSED_REPEAT_LABEL", 
+    "IF_UNPRESSED_REPEAT_LABEL", 
+    "M_STORE", 
+    "M_RECALL", 
+    "M_RECALL_LINE", 
+    "OPEN", 
+    "RELEASE_ALL", 
+    "RESET_REPEATS",
+
+    ##############################################
+    # FOLLOWING FUNCTIONS MADE BY Cocaine_Potato #
+    ##############################################
+
+    "WEB_NOHTTPS" #
+
+    ]
 ASYNC_HEADERS = ["@ASYNC", "@SIMPLE"]
 
 threads = [[None for y in range(9)] for x in range(9)]
@@ -151,7 +192,7 @@ def run_script(script_str, x, y):
         repeats_original = dict()
         
         m_pos = ()
-        
+
         def main_logic(idx):
             nonlocal m_pos
             
@@ -165,6 +206,13 @@ def run_script(script_str, x, y):
                 print("[scripts] " + coords + "    Comment: " + line[1:])
             else:
                 split_line = line.split(" ")
+
+                command = split_line[0] # # # # #
+                arg = split_line # # # # #
+
+
+
+
                 if split_line[0] == "STRING":
                     type_string = " ".join(split_line[1:])
                     print("[scripts] " + coords + "    Type out string " + type_string)
@@ -209,10 +257,6 @@ def run_script(script_str, x, y):
                     link = split_line[1]
                     if "http" not in link:
                         link = "http://" + link
-                    print("[scripts] " + coords + "    Open website " + link + " in default browser")
-                    webbrowser.open(link)
-                elif split_line[0] == "WEB_NOHTTPS":
-                    link = split_line[1]
                     print("[scripts] " + coords + "    Open website " + link + " in default browser")
                     webbrowser.open(link)
                 elif split_line[0] == "WEB_NEW":
@@ -481,6 +525,28 @@ def run_script(script_str, x, y):
                     print("[scripts] " + coords + "    Reset all repeats")
                     for i in repeats:
                         repeats[i] = repeats_original[i]
+
+
+                ##############################################
+                ### FUNCTION DEFINITIONS BY Cocaine_Potato ###
+                ##############################################
+
+                
+
+                elif command == "WEB_NOHTTPS":
+                    link = split_line[1]
+                    print("[scripts] " + coords + "    Open website " + link + " in default browser")
+                    webbrowser.open(link)
+
+
+
+
+
+
+
+
+
+
                 else:
                     print("[scripts] " + coords + "    Invalid command: " + split_line[0] + ", skipping...")
             return idx + 1
