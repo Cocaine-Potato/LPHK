@@ -135,6 +135,7 @@ def shutdown():
 def main():
     init()
     window.init(lp, launchpad, PATH, PROG_PATH, USER_PATH, VERSION, PLATFORM)
+
     if EXIT_ON_WINDOW_CLOSE:
         shutdown()
 
