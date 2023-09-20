@@ -71,6 +71,8 @@ def init(lp_object_in, launchpad_in, path_in, prog_path_in, user_path_in, versio
     else:
         MAIN_ICON = os.path.join(PATH, "resources", "LPHK.gif")
 
+
+
     make()
 
 
@@ -126,6 +128,8 @@ class Main_Window(tk.Frame):
         display_info = lambda: self.popup(self, "About LPHK", self.about_image, "A Novation Launchpad Macro Scripting System\nMade by Ella Jameson (nimaid)\n\nVersion: " + VERSION + "\nFile format version: " + files.FILE_VERSION, "Done")
         self.m_Help.add_command(label="About LPHK", command=display_info)
         self.m.add_cascade(label="Help", menu=self.m_Help)
+
+
 
         c_gap = int(BUTTON_SIZE // 4)
 
@@ -718,6 +722,21 @@ def make():
     app = Main_Window(root)
     app.raise_above_all()
     app.after(100, app.connect_lp)
+
+    def autoload(path):
+        scripts.layout = files.load_layout(path, popups=False, save_converted=False)
+
+    import json
+
+
+    with open("E:\\FILES\\GitHub\\LPHK\\settings.json", "r") as file:
+        cfg = json.load(file)
+        settings = cfg["settings"]
+        startup = settings["startup"]
+
+    if startup["value"] == True:
+        app.after(250, autoload(startup["path"]))
+
     app.mainloop()
 
 

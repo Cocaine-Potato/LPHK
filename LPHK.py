@@ -2,6 +2,8 @@ import os
 import sys
 from datetime import datetime
 
+
+
 print("\n!!!!!!!! DO NOT CLOSE THIS WINDOW WITHOUT SAVING !!!!!!!!\n")
 
 LOG_TITLE = "LPHK.log"
@@ -75,7 +77,23 @@ print("Operating path:", PATH)
 print("User path:", USER_PATH)
 print("Program file path:", PROG_PATH)
 print("Program file:", PROG_FILE)
-print("Log file (this file):", LOG_PATH, end="\n\n")
+print("Log file (this file):", LOG_PATH)
+print("\n\n")
+
+      
+
+
+
+import json
+
+
+with open("E:\\FILES\\GitHub\\LPHK\\settings.json", "r") as file:
+    cfg = json.load(file)
+    settings = cfg["settings"]
+    startup = settings["startup"]
+
+
+
 
 # Try to import launchpad.py
 try:
@@ -92,7 +110,11 @@ from utils import launchpad_connector
 
 lp = launchpad.Launchpad()
 
+
 EXIT_ON_WINDOW_CLOSE = True
+
+def autoload(path):
+    layout = files.load_layout(path, popups=False, save_converted=False)
 
 
 def init():
@@ -134,7 +156,13 @@ def shutdown():
 
 def main():
     init()
+
+
+
+
+
     window.init(lp, launchpad, PATH, PROG_PATH, USER_PATH, VERSION, PLATFORM)
+
 
     if EXIT_ON_WINDOW_CLOSE:
         shutdown()

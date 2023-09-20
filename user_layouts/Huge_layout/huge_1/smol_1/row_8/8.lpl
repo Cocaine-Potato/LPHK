@@ -1,0 +1,671 @@
+{
+  "buttons": [
+    [
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "OPEN C:"
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "OPEN E:"
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "OPEN G:\\My Drive"
+      },
+      {
+        "color": [
+          0,
+          0,
+          255
+        ],
+        "text": "OPEN E:\\FILES"
+      },
+      {
+        "color": [
+          141,
+          0,
+          0
+        ],
+        "text": "OPEN G:\\My Drive\\Private\\BF\\Pics\nDELAY 1\nTAP f11"
+      }
+    ],
+    [
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          255
+        ],
+        "text": "OPEN E:\\SOFTWARE"
+      },
+      {
+        "color": [
+          0,
+          0,
+          255
+        ],
+        "text": "OPEN E:\\Downloads"
+      }
+    ],
+    [
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "TAP prev_track"
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          255,
+          0,
+          0
+        ],
+        "text": "@ASYNC\nTAP backspace"
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@ASYNC\nTAP left"
+      }
+    ],
+    [
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "TAP next_track"
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@ASYNC\nTAP up"
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@ASYNC\nTAP down"
+      }
+    ],
+    [
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "TAP play_pause"
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          128,
+          0
+        ],
+        "text": "@ASYNC\nTAP enter"
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@ASYNC\nTAP right"
+      }
+    ],
+    [
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@ASYNC\nPRESS ctrl\nPRESS shift\nPRESS esc\nRELEASE_ALL"
+      }
+    ],
+    [
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          255,
+          0,
+          0
+        ],
+        "text": "@ASYNC\nPRESS alt\nPRESS f4\nRELEASE_ALL"
+      }
+    ],
+    [
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          255,
+          0,
+          0
+        ],
+        "text": "@ASYNC\nPRESS ctrl\nPRESS win\nPRESS shift\nPRESS b\nRELEASE_ALL"
+      },
+      {
+        "color": [
+          0,
+          0,
+          255
+        ],
+        "text": "@ASYNC\n\nPRESS win\nPRESS shift\nPRESS t\nRELEASE_ALL"
+      },
+      {
+        "color": [
+          34,
+          141,
+          34
+        ],
+        "text": "@ASYNC\n\nPRESS win\nPRESS shift\nPRESS s\nRELEASE_ALL"
+      }
+    ],
+    [
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          0,
+          0,
+          0
+        ],
+        "text": ""
+      },
+      {
+        "color": [
+          255,
+          255,
+          255
+        ],
+        "text": "@LOAD_LAYOUT E:\\FILES\\GitHub\\LPHK\\user_layouts\\Huge_layout\\huge_1\\smol_1\\smolmain.lpl"
+      }
+    ]
+  ],
+  "version": "0.1.1"
+}

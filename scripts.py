@@ -2,6 +2,7 @@ import threading, webbrowser, os, subprocess
 from time import sleep
 from functools import partial
 import lp_events, lp_colors, kb, sound, ms
+import window
 
 COLOR_PRIMED = 5 #red
 COLOR_FUNC_KEYS_PRIMED = 9 #amber
@@ -49,9 +50,13 @@ VALID_COMMANDS = [
     # FOLLOWING FUNCTIONS MADE BY Cocaine_Potato #
     ##############################################
 
-    "WEB_NOHTTPS" #
-
+    "WEB_NOHTTPS",
+    # "IMPORT_SCRIPT"
+    "SETCOLOR",
+    "STEAM"
     ]
+
+
 ASYNC_HEADERS = ["@ASYNC", "@SIMPLE"]
 
 threads = [[None for y in range(9)] for x in range(9)]
@@ -139,6 +144,9 @@ def run_next():
         y = tup[2]
 
         schedule_script(new_script, x, y)
+
+def i(x):
+    return int(x)
 
 def run_script_and_run_next(script_in, x_in, y_in):
     global running
@@ -538,14 +546,54 @@ def run_script(script_str, x, y):
                     print("[scripts] " + coords + "    Open website " + link + " in default browser")
                     webbrowser.open(link)
 
+                # elif command == "IMPORT_SCRIPT":
+                                                        # UNUSED/DISCONTINUED
+                #     IMPORT_SCRIPT(arg[1])
 
+                elif command == "SETCOLOR":
 
+                    # colors: {
+                    #     ["white", 255, 255, 255],
+                    #     ["red", 255, 0, 0],
+                    #     ["green", 0, 255, 0],
+                    #     ["blue", 0, 0, 255],
+                    #     ["magenta", 255, 0, 255],
+                    #     ["coral", 255, 127, 80],
+                    #     ["moccasin", 255, 228, 181],
+                    #     ["lightpink", 255, 182, 193],
+                    #     ["forestgreen", 34, 139, 34],
+                    #     ["lightcoral", 240, 128, 128],
+                    #     ["palegreen", 152, 251, 152],
+                    #     ["mediumaquamarine", 102, 205, 170],
+                    #     ["navy", 0, 0, 128],
+                    #     ["plum", 221, 160, 221],
+                    #     ["palevioletred", 219, 112, 147],
+                    #     ["sandy", 244, 164, 96],
+                    #     ["maroon", 128, 0, 0]
+                    # }
 
+                    SETCOLOR_x = int(arg[1])
+                    SETCOLOR_y = int(arg[2])
 
+                    SETCOLOR_r = int(arg[3])
+                    SETCOLOR_g = int(arg[4])
+                    SETCOLOR_b = int(arg[5])
+                    
+                    if str(arg[6]).lower() == "solid" or "flash" or "pulse":
+                        SETCOLOR_mode = str(arg[6])
 
+                    else: SETCOLOR_mode = "solid"
 
+                    lp_colors.color_modes[SETCOLOR_x][SETCOLOR_y] = SETCOLOR_mode
 
+                    SETCOLOR_color = [SETCOLOR_r, SETCOLOR_g, SETCOLOR_b]
 
+                    lp_colors.setXY(SETCOLOR_x, SETCOLOR_y, SETCOLOR_color)
+                    lp_colors.updateXY(SETCOLOR_x, SETCOLOR_y)
+             
+                elif command == "STEAM":
+                    link = "steam://rungameid/" + arg[1]
+                    webbrowser.open(link)
 
                 else:
                     print("[scripts] " + coords + "    Invalid command: " + split_line[0] + ", skipping...")
@@ -563,6 +611,26 @@ def run_script(script_str, x, y):
     
     print("[scripts] (" + str(x) + ", " + str(y) + ") Script done running.")
     
+def IMPORT_SCRIPT(path): 
+    with open(path, "r") as f:
+        filecontent = f.read()
+        content = filecontent.split("|")
+
+        text = content[0] # command
+        IMPORT_coord_x = int(content[1])
+        IMPORT_coord_y = int(content[2])
+
+        color = [
+            int(content[3]),
+            int(content[4]),
+            int(content[5])
+        ]
+                
+                       
+        bind(IMPORT_coord_x, IMPORT_coord_y, text, color)
+
+        lp_colors.setXY(IMPORT_coord_x, IMPORT_coord_y, color)
+        lp_colors.updateXY(IMPORT_coord_x, IMPORT_coord_y)
 
 def bind(x, y, script_down, color):
     global to_run
